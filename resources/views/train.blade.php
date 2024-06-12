@@ -5,6 +5,10 @@
 
 <ul>
     @foreach ($trains as  $train)
+        <li>
+           {{$train->name}} 
+        </li>
+
         
     @endforeach
 </ul>
